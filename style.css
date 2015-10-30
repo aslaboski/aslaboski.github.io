@@ -1,9 +1,23 @@
 body {
   font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 300;
-  background: url(linedpaper.png) repeat;
+  background: url(Oahu.jpg);
+  background-size: cover;
+  background-position:  top;
 }
 #wrapper {
   width: 960px;
   margin: 20px auto;
+}
+h1, h2, h3 {
+	color: black;
+}
+img {
+  width: 228px;
+}
+#summary {
+  color: red;
+}
+.unicorn {
+  color: purple;
 }
