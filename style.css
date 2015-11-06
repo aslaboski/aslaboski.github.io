@@ -1,23 +1,54 @@
 body {
-  font-family: 'helvetica neue', arial, sans-serif;
+  font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
   font-weight: 300;
   background: url(Oahu.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
   background-position:  top;
+
 }
 #wrapper {
-  width: 960px;
+  width: 1000px;
   margin: 20px auto;
+
+
 }
 h1, h2, h3 {
 	color: black;
 }
 img {
-  width: 228px;
+  width: 155px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width:  thin;
+  border-color: gray;
 }
-#summary {
-  color: red;
+
+div {
+  width: 650px;
 }
-.unicorn {
-  color: purple;
+
+h4 {
+  border-style: solid;
+  border-color: black;
+  border-width:  thin;
+  border-radius: 3px;
+  padding: 5px;
+  background: #C8C8C8;
+
+}
+
+h5 {
+  font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.exp {
+  font-size: 14px;
+  padding-left: 15px;
+}
+
+#sum {
+  padding-left: 15px;
 }
