@@ -14,4 +14,8 @@
   background-size: cover;
   background-position:  center;
 }
-
+#adam {
+	border-style: solid;
+  border-width:  thin;
+  border-color: gray;
+}
