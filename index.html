@@ -4,48 +4,106 @@
   <title>Adam Slaboski, MBA Candidate</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <div id="wrapper">
-    <h1>Adam Slaboski</h1>
-    <p>
-      <img src="Adam.jpg">
-    </p>
-    <h2>MBA Candidate</h2>
-    <h3>Evanston, IL</h3>
-    <div>
-      <h4>Connect With Me</h4>
-      <ul>
-        <li><a href="mailto:aslaboski2016@kellogg.northwestern.edu">Email</a></li>
-        <li><a href="http://twitter.com/adamslaboski">Twitter</a></li>
-        <li><a href="http://facebook.com/adamslaboski">Facebook</a></li>
-      </ul>
+    <div class="container">
+      <nav class="navbar navbar-inverse" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Adam Slaboski</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="index.html">
+                <i class="fa fa-home"></i>
+                Home
+              </a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                <i class="fa fa-portfolio"></i>
+                Portfolio
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Professional</a></li>
+                <li><a href="#">Academic</a></li>
+                <li><a href="#">Other Interests</a></li>
+                <li><a href="#">Contact Me</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#">
+                <i class="fa fa-account"></i>
+                Account Settingss
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
-    <div>
-      <h4>Summary</h4>
-      <p id="sum">
-        Adam studies at Northwestern University Kellogg School of Management.  Drawing from his background in consumer product innovation and high tech product marketing, Adam will be transitioning into technology product management after graduation.  In his free time, you can find Adam traveling, surfing, or going to concerts.
-      </p>
-    </div>
-    <div>
-      <h4>Experience</h4>
-      <div class="exp">
-        <h5>MBA Candidate, Northwestern University Kellogg School of Management</h5>
-        <p>Focus areas include marketing, analytics, and innovation</p>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Adam Slaboski</h1>
+        <h2>MBA Candidate, Class of 2016</h2>
+        <p>
+          <img src="Adam.jpg" class="img-circle" style="width:225px">
+        </p>
       </div>
-      <div class = "exp">
-        <h5>Product Marketing, Box</h5>
-        <p>Helped expand Box for Industries.</p>
-      </div>
-    </div>
-    <div>
-      <h4 class="unicorn">Hobbies</h4>
-      <ul>
-        <li>Surfing</li>
-        <li>Photography</li>
-      </ul>
-    </div>
-  </div>
-</body>
-</html>
+      <div class="row">
+        <div class="col-md-2 text-center">
+          <p><a href="#" class="btn btn-primary"><i class="fa fa-Contact"></i> LinkedIn</a></p>
+          <p><a href="#" class="btn btn-primary"><i class="fa fa-Contact"></i> Email</a></p>
+        </div>
+        <div class="col-md-8 summary">
+          <h2 class="page-header">About Me</h2>
+          <p>
+            Adam studies at Northwestern University Kellogg School of Management.  Drawing from his background in consumer product innovation and high tech product marketing, Adam will be transitioning into technology product management after graduation.  In his free time, you can find Adam traveling, surfing, or attending concerts.
+          </p>
+          <h2 class="page-header">Experience</h2>
+            <table class="table table-bordered">
+              <thead>
+                <th>Date</th>
+                <th>Institution</th>
+                <th>Position</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>September 2014 - Present</td>
+                  <td>Kellogg School of Management</td>
+                  <td>MBA Candidate, Class of 2016</td>
+                </tr>
+                <tr>
+                  <td>Summer 2015</td>
+                  <td>Box, Inc.</td>
+                  <td>Product Marketing MBA Intern</td>
+                </tr>
+                <tr>
+                  <td>2012 - 2014</td>
+                  <td>The Clorox Company</td>
+                  <td>Innovation Project Manager</td>
+                </tr>
+              </tbody>
+            </table>
+          <h2 class="page-header">Personal Interests</h2>
+            <ul>
+              <li>Surfing</li>
+              <li>Training for first marathon (in Summer 2016)</li>
+              <li>Digital Photography</li>
+            </ul>
+        </div>
+          
+        
+
