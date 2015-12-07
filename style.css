@@ -1,15 +1,17 @@
 
 #title{
   font-size: 36px;
-  margin-top: 0px;
+  margin-top: -30px;
   color: white;
+  background-color: black;
 }
 
 #subtitle {
   font-size: 24px;
   margin-top:0;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   color: white;
+  background-color: black;
 }
 
 #jumbo_join {
@@ -17,7 +19,7 @@
 }
 
 .jumbotron {
-  background: url(surfboards3.jpg);
+  background: url(surfboards3a.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
